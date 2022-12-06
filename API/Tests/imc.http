@@ -1,0 +1,12 @@
+POST https://localhost:5001/api/api/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Felipe",
+    "altura" : "170",
+    "peso" : "74"
+
+}
+
+###
+GET https://localhost:5001/api/imc/listar

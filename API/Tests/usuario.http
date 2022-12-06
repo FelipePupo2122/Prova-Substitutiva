@@ -1,0 +1,11 @@
+POST https://localhost:5001/api/usuario/cadastrar
+Content-Type: application/json
+
+{
+    "UsuarioId" : 1
+}
+###
+GET https://localhost:5001/api/usuario/listar
+
+
+
